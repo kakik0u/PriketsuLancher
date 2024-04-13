@@ -110,3 +110,6 @@ If you do not agree with these terms and conditions, then remove the associated 
 All launcher code is available under the GPL-3.0-only license.
 
 The logo and related assets are under the CC BY-SA 4.0 license.
+
+
+cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX="dist" -DCMAKE_PREFIX_PATH="/opt/homebrew/opt/qt" -DQt6_DIR="/opt/homebrew/opt/qt" -DCMAKE_OSX_DEPLOYMENT_TARGET=10.14 DLauncher_BUILD_PLATFORM=macOS -DENABLE_LTO=ON
