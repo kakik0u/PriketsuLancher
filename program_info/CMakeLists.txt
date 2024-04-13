@@ -8,7 +8,7 @@ if(UNIX)
     endif()
 endif()
 
-set(Launcher_CommonName "PriketsuLauncher")
+set(Launcher_CommonName "PriPriketsuLauncher")
 set(Launcher_DisplayName "Priketsu Launcher")
 
 set(Launcher_Name "${Launcher_CommonName}" PARENT_SCOPE)
@@ -19,9 +19,9 @@ set(Launcher_Copyright_Mac "© 2022-2024 Priketsu Launcher Contributors, © 2021
 set(Launcher_Copyright "${Launcher_Copyright}" PARENT_SCOPE)
 set(Launcher_Domain "Priketsulauncher.org" PARENT_SCOPE)
 set(Launcher_UserAgent "${Launcher_CommonName}/${Launcher_VERSION_NAME}" PARENT_SCOPE)
-set(Launcher_ConfigFile "Priketsulauncher.cfg" PARENT_SCOPE)
-set(Launcher_Git "https://github.com/kakik0u/PrismLauncher" PARENT_SCOPE)
-set(Launcher_DesktopFileName "org.Priketsulauncher.PriketsuLauncher.desktop" PARENT_SCOPE)
+set(Launcher_ConfigFile "prismlauncher.cfg" PARENT_SCOPE)
+set(Launcher_Git "https://github.com/PrismLauncher/PrismLauncher" PARENT_SCOPE)
+set(Launcher_DesktopFileName "org.prismlauncher.PrismLauncher.desktop" PARENT_SCOPE)
 set(Launcher_SVGFileName "org.prismlauncher.PrismLauncher.svg" PARENT_SCOPE)
 
 set(Launcher_Desktop "program_info/org.prismlauncher.PrismLauncher.desktop" PARENT_SCOPE)
