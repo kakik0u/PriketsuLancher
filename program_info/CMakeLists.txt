@@ -8,7 +8,7 @@ if(UNIX)
     endif()
 endif()
 
-set(Launcher_CommonName "PriPriketsuLauncher")
+set(Launcher_CommonName "PriketsuLauncher")
 set(Launcher_DisplayName "Priketsu Launcher")
 
 set(Launcher_Name "${Launcher_CommonName}" PARENT_SCOPE)
